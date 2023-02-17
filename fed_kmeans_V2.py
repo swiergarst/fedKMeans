@@ -25,6 +25,11 @@ class client_V2():
 
         labels = km.predict(self.data)
         sample_amts = np.array([len(labels[labels == i]) for i in range(self.n_clusters)])
+        
+        cluster_mask = [sample > 1 for sample in sample_amts]
+        local_clusters = local_clusters[cluster_mask]
+        sample_amts = sample_amts[cluster_mask]
+
 
         return local_clusters, sample_amts
     
@@ -43,17 +48,21 @@ class client_V2():
         else:
             score = None
             
-        empty_clusters = [ np.where(cluster_labels == i)[0].shape[0] > 1 for i in range(self.n_clusters)]    
+        non_empty_clusters = [ np.where(cluster_labels == i)[0].shape[0] > 0 for i in range(self.n_clusters)]    
 
-        self.means = self.means[empty_clusters]
+        self.means = self.means[non_empty_clusters]
         self.n_clusters = len(self.means)
         km = KMeans(n_clusters = self.n_clusters, init = self.means, max_iter = 1, n_init = 1).fit(self.data)
         self.means = np.copy(km.cluster_centers_)
         sample_amts = np.array([len(km.labels_[km.labels_ == i]) for i in range(self.n_clusters)])
         
+        # assert clusters are larger than size 1 (privacy issues)
+        cluster_mask = [sample > 1 for sample in sample_amts]
+        self.means = self.means[cluster_mask]
+        sample_amts = sample_amts[cluster_mask]
         #print(self.data.shape[0], self.n_clusters, sample_amts)
 
-        return(np.copy(km.cluster_centers_), sample_amts, score)
+        return(np.copy(self.means), sample_amts, score)
 
     
 
@@ -73,7 +82,7 @@ class server_V2():
         return cluster_aggregator.cluster_centers_
  
 
-def run_V2(n_global,n_runs = 1, crounds = 10, beta = 0.1, dset = 'regular', ppc = 50, noise = 1):
+def run_V2(n_global,n_runs = 1, crounds = 10, beta = 0.1, dset = 'regular', ppc = 50, noise = 1 ):
     
     if (dset == "FEMNIST"):
         n_clients = 10
