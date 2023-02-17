@@ -73,7 +73,7 @@ class server_V2():
         return cluster_aggregator.cluster_centers_
  
 
-def run_V2(n_global,n_runs = 1, crounds = 10, beta = 0.1, dset = 'regular', ppc = 50, noise = 1, weighted_init = False):
+def run_V2(n_global,n_runs = 1, crounds = 10, beta = 0.1, dset = 'regular', ppc = 50, noise = 1):
     
     if (dset == "FEMNIST"):
         n_clients = 10
@@ -103,10 +103,8 @@ def run_V2(n_global,n_runs = 1, crounds = 10, beta = 0.1, dset = 'regular', ppc 
 
         local_clusters = np.concatenate(local_clusters)
 
-        if weighted_init == True:
-            cluster_sizes = np.concatenate(cluster_sizes)
-        else:
-            cluster_sizes = np.ones(len(local_clusters))
+
+        cluster_sizes = np.concatenate(cluster_sizes)
 
         #print(cluster_sizes)
         for c in range(crounds):
