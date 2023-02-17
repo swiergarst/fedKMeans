@@ -1,0 +1,28 @@
+﻿- compare approach with existing works:
+	- tensorflow implementation: https://www.tensorflow.org/federated/api_docs/python/tff/learning/algorithms/build_fed_kmeans
+	- H. H. Kumar, K. V R and M. K. Nair, "Federated K-Means Clustering: A Novel Edge AI Based Approach for Privacy Preservation," 2020 IEEE International Conference on Cloud Computing in Emerging Markets (CCEM), 2020, pp. 52-56, doi: 10.1109/CCEM50674.2020.00021.
+	- Dennis, D. K., Li, T., & Smith, V. (2021, July). Heterogeneity for the win: One-shot federated clustering. In International Conference on Machine Learning (pp. 2611-2620). PMLR.
+	- Liu, Yang, Zhuo Ma, Zheng Yan, Zhuzhu Wang, Ximeng Liu, and Jianfeng Ma. "Privacy-preserving federated k-means for proactive caching in next generation cellular networks." Information Sciences 521 (2020): 14-31.
+	- Hou, Ruiqi, et al. "Multi-party verifiable privacy-preserving federated k-means clustering in outsourced environment." Security and Communication Networks 2021 (2021).
+
+Review 1:
+
+
+ - it would be good to have a pseudocode for Determine_t(). Based on equation 2, variance of features are used. In that case do all clients send feature variances to the server? How are these variances fused into a single variance at the center? Please provide details of Determine_t().
+
+- Equation 3 seems to have problems: (1) if s_k is the number of samples in that cluster, in the current formula bigger clusters will have larger distances and are less likely to be chosen by the min operator. Do the authors mean to multiply by 1/s_k? (2) why do the authors multiply s_k with X_{j,k}? It looks like s_k should be outside the distance formula ||X_{j,k} - \mu_k||. Equation 3 should be corrected and justified better.
+
+ - Figure 1 caption seems to be cut mistakenly. Figures 1.b and 1.c should be explained within the caption of Figure 1.
+ 
+ -  Title of the Figure 2.d is cropped. It should be corrected.
+
+
+Review 2:
+
+	
+- While the paper is addressing an important topic, it does not clearly define the differences with respect to the state of the art. The authors mention that only a single paper on federated k-means clustering exists, but there are many to be found in literature (see below). For the paper they mention, it is not discussed how it differs from an algorithmic perspective. The authors only mention that they were not able to reproduce the results.
+
+- The algorithm that is proposed seems interesting but I lack the theoretical explanation of why these choices are made. For example, it is not clear how the local cluster count results to deterministic results where you will not make any mistakes compared to a centralized approach. How can you ensure that this is more than a heuristic / simple approximation?
+
+- The evaluation is - as the authors acknowledge - fairy limited as it is both two-dimensional and using synthetic data. I would also expect to compare your approach with other federated (clustering) algorithms, to show that it is better than other federated approaches. I am missing that perspective.
+
