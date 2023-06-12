@@ -2,6 +2,7 @@ import numpy as np
 from sklearn.cluster import KMeans, kmeans_plusplus
 from sklearn.metrics.cluster import adjusted_rand_score
 from common import *
+from tqdm import tqdm
 
 
 
@@ -93,7 +94,7 @@ def run_V2(n_global,n_runs = 1, crounds = 10, beta = 0.1, dset = 'regular', ppc 
 
     scores = np.zeros((n_clients, crounds, n_runs))
     avg_scores = np.zeros((crounds, n_runs))
-    for r in range(n_runs):
+    for r in tqdm(range(n_runs)):
         local_clusters = []
         clients = []
 

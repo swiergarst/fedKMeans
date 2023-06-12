@@ -43,6 +43,33 @@ def calc_silhouette_score(dset, centers):
     score = silhouette_score(dset, labels)
     return score
 
+
+
+def calc_ssilh_score2(dsets, centers):
+    full_dset = np.vstack(dsets)
+
+    km = KMeans(n_clusters = centers.shape[0])
+    km.cluster_centers_ = np.copy(centers)
+    km._n_threads = 8
+    labels = km.predict(full_dset)
+
+    cluster_means = np.zeros_like(centers)
+    for i, label in enumerate(np.unique(labels)):
+        #print(full_dset[labels == label,...].shape)
+        cluster_means[i,...] = np.mean(full_dset[labels == label,...], axis = 0)
+        
+    #print(cluster_means.shape)
+
+    score = 0
+    for i, label in enumerate(labels):
+        #print(point.shape)
+        ai = np.linalg.norm(full_dset[i,...] - cluster_means[label,...])
+        bi = np.min(np.linalg.norm(full_dset[i,...] - cluster_means[np.arange(centers.shape[0]) != label, ...], axis = 1))
+        score_i = (bi - ai)/max(bi, ai)
+        score += score_i
+    score /= full_dset.shape[0]
+    return score
+
 # this is for now stuffed in one function, but can easily made "federated"
 def calc_simpl_silh_score(dsets, centers):
     score = 0

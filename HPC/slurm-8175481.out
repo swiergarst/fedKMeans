@@ -1,0 +1,2 @@
+/home/nfs/swiergarst/kmeans/HPC/fed_kmeans_V2.py:55: ConvergenceWarning: Number of distinct clusters (25) found smaller than n_clusters (26). Possibly due to duplicate points in X.
+  km = KMeans(n_clusters = self.n_clusters, init = self.means, max_iter = 1, n_init = 1).fit(self.data)

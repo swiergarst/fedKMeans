@@ -60,13 +60,27 @@ def calc_simpl_silh_score(dsets, centers):
     score /= sum([dset.shape[0] for dset in dsets])
     return score
 
+def calc_ssilh_score_fed2(clients, centers):
+    
+    cluster_averages = []
+    cluster_sizes = []
+    for client in clients:
+        cluster_average, cluster_size = client.get_cluster_averages(centers)
+        cluster_averages.append(cluster_average)
+        cluster_sizes.append(cluster_size)
+
+    global_cluster_averages = weighted_avg(cluster_averages, cluster_sizes)
+
+    return(calc_simpl_silh_score_fed(clients, global_cluster_averages))
+
+
 def calc_simpl_silh_score_fed(clients, global_centers):
     
-    local_scores = np.zeros(len(clients))
+    local_scores = np.zeros((len(clients), 1))
     local_sizes = np.zeros(len(clients))
 
-    for i, client in clients:
-        local_scores[i], local_sizes[i] = client.calc_simp_silh_score(global_centers)
+    for i, client in enumerate(clients):
+        local_scores[i,:], local_sizes[i] = client.calc_local_ssilh_score(global_centers)
     
     global_score = weighted_avg(local_scores, local_sizes)
 

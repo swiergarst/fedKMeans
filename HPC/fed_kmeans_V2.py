@@ -79,6 +79,24 @@ class client_V2():
 
         return score, self.data.shape[0] 
 
+    def get_cluster_averages(self, cluster_centers):
+
+        km = KMeans(n_clusters = cluster_centers.shape)
+        km.cluster_centers_ =  np.copy(cluster_centers)
+        km._n_threads = 8
+
+        labels = km.predict(self.data)
+
+        cluster_means = np.zeros_like(cluster_centers)
+        cluster_sizes = np.zeros(cluster_centers.shape[0])
+
+        for i, label in enumerate(np.unique(labels)):
+            cluster_means[i,...] = np.mean(self.data[labels == label, ...], axis = 0)
+            cluster_sizes[i] = self.data[labels == label, ...].shape[0]
+        
+        return cluster_means, cluster_sizes
+
+
 
 class server_V2():
     def __init__(self, n_global):
