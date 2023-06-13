@@ -168,7 +168,7 @@ def run_V2(n_global,n_runs = 1, crounds = 10, beta = 0.1, dset = 'regular', ppc 
         if (dset == "FEMNIST"):
             full_dset, _ = load_stacked_data(dset, n_clients)
             avg_scores[0,r] = calc_silhouette_score(full_dset, global_clusters)
-            avg_scores[1,r] = calc_simpl_silh_score_fed(clients, global_clusters)
+            avg_scores[1,r] = calc_ssilh_score_fed2(clients, global_clusters)
     # calculate the (weighted) mean ARI for all clients combined
     if (dset != "FEMNIST"):
         tot_samples = 0
