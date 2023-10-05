@@ -172,3 +172,32 @@ def plot_federated(data_full, means_true, means_est, title= None):
     plt.title(title)
     plt.grid(True)
     #plt.savefig("federated_results2.eps", format="eps")
+    
+    
+        
+def plot_range(data, data2=None, line='-', color=None, label = None, convert = False):
+    if data2 == None:
+        x = np.arange(data.shape[1])
+    else:
+        x = np.mean(data2, axis =0)
+    mean = np.mean(data, axis=0)
+    std = np.std(data, axis=0)
+    #std = np.var(data, axis=0)
+    if color==None:
+        ax,  = plt.plot(x, mean,line, label=label)
+        plt.fill_between(x, mean-std, mean+std, alpha = 0.5)
+    else:
+        if convert:
+            r,g,b,a = c.to_rgba(color, alpha = 0.5)
+#alpha = 0.5
+            r_new = ((1 - a) * 1) + (a * r)
+            g_new = ((1 - a) * 1) + (a * g)
+            b_new = ((1 - a) * 1) + (a * b)
+
+            ax = plt.plot(x, mean, line, color=color, label=label)
+            plt.fill_between(x, mean-std, mean+std, color = (r_new, g_new, b_new))
+        else:
+            ax = plt.plot(x, mean,line, color=color, label = label)
+            plt.fill_between(x, mean-std, mean+std, alpha = 0.5, color=color)
+
+    return ax

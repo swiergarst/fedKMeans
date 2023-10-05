@@ -1,0 +1,3 @@
+slurmstepd: error: *** STEP 8174567.0 ON 3dgi1 CANCELLED AT 2023-02-24T09:43:00 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 8174567 ON 3dgi1 CANCELLED AT 2023-02-24T09:43:00 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
