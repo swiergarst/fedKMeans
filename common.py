@@ -39,28 +39,37 @@ def det_n_clients(dset):
     else:
         return 5
     
-def load_config(dset = 'abl', n_runs = 1, crounds = 10, k_global = 2, dset_options = {}):
+def load_config(dset = 'abl', n_runs = 1, crounds = 10, k_global = 2, init = 'k-means++', iter_local = 1, drop = True, weighted_agg = True, dset_options = {}):
     config_options = {
         'dset' : ['abl', 'FEMNIST'],
         'n_runs' : [1, 200],
         'crounds' : [1, 100],
         'k_global' : [2, 100],
-        "n_clients" : [2, 50]
+        "n_clients" : [2, 50],
+        "init" : ['k-means++', 'random'],
+        'iter_local' : [1, 100],
+        "drop" : [True, False],
+        "weighted_agg" : [True, False]
     }
     
-    config = {}
-    config['dset'] = dset
-    config['n_runs'] = n_runs
-    config['crounds'] = crounds
-    config['k_global'] = k_global
-    config['n_clients'] = det_n_clients(dset)
+    config = {
+        'dset': dset,
+        'n_runs': n_runs,
+        'crounds': crounds,
+        'k_global': k_global,
+        'n_clients': det_n_clients(dset),
+        'init' : init,
+        'iter_local' : iter_local,
+        'drop' : drop,
+        'weighted_agg' : weighted_agg
+        }
 
 
     # assert correctly loaded config
     for key in config.keys():
         if type(config[key]) == int:
             assert (config[key] >= min(config_options[key])) and (config[key] <= max(config_options[key])), f"value for {key} out of bounds: {config[key]}. Minimum: {min(config_options[key])}, maximum: {max(config_options[key])}." 
-        elif type(config[key]) == str:
+        elif type(config[key]) == str or type(config[key] == bool):
             assert config[key] in config_options[key], f'unkown value for {key}. options: {config_options[key]}.'
         else:
             AssertionError(f"unkown type for {key}: {type(key)}.")

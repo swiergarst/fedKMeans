@@ -98,8 +98,9 @@ class client_FKM():
 
 
 class server_FKM():
-    def __init__(self, n_global):
+    def __init__(self, n_global, weighted = True):
         self.n_global = n_global
+        self.weighted = weighted
         
     def aggregate(self, local_clusters, samples):
         cluster_aggregator = KMeans(n_clusters = self.n_global)
@@ -107,8 +108,10 @@ class server_FKM():
 
         means_res = np.array(local_clusters)
         #cluster_aggregator.fit(means_res, sample_weight =  samples.reshape(-1))
-        cluster_aggregator.fit(means_res, sample_weight = samples)
-        
+        if self.weighted == True:
+            cluster_aggregator.fit(means_res, sample_weight = samples)
+        else:
+            cluster_aggregator.fit(means_res)
         return cluster_aggregator.cluster_centers_
 
 
