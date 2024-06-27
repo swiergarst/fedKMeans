@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 
 
 def load_data(i, dset, beta = None, ppc = 100, noise = 1):
-    cwd = os.getcwd()
-
+    # cwd = os.getcwd()
+    cwd = os.path.dirname(os.path.realpath(__file__))
     if dset == "regular":
         datafile = cwd + "/data/beta" + str(beta) + "/cluster_beta" + str(beta) + "_client" + str(i) + ".csv" 
         labelfile = cwd + "/data/beta" + str(beta) + "/labels_beta" + str(beta) + "_client" + str(i) + ".csv" 
@@ -44,6 +44,30 @@ def calc_silhouette_score(dset, centers):
     return score
 
 
+def calc_ssilh_score_fed2(clients, centers):
+    
+    cluster_averages = []
+    cluster_sizes = []
+    for client in clients:
+        cluster_average, cluster_size = client.get_cluster_averages(centers)
+        cluster_averages.append(cluster_average)
+        cluster_sizes.append(cluster_size)
+
+    global_cluster_averages = weighted_avg(cluster_averages, cluster_sizes)
+
+    return(calc_simpl_silh_score_fed(clients, global_cluster_averages))
+
+def calc_simpl_silh_score_fed(clients, global_centers):
+    
+    local_scores = np.zeros((len(clients), 1))
+    local_sizes = np.zeros(len(clients))
+
+    for i, client in enumerate(clients):
+        local_scores[i,:], local_sizes[i] = client.calc_local_ssilh_score(global_centers)
+    
+    global_score = weighted_avg(local_scores, local_sizes)
+
+    return global_score
 
 def calc_ssilh_score2(dsets, centers):
     full_dset = np.vstack(dsets)
