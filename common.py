@@ -33,6 +33,65 @@ def load_data(i, dset, beta = None, ppc = 100, noise = 1):
     
     return data, labels
 
+def det_n_clients(dset):
+    if dset == "FEMNIST":
+        return 10
+    else:
+        return 5
+    
+def load_config(dset = 'abl', n_runs = 1, crounds = 10, k_global = 2, dset_options = {}):
+    config_options = {
+        'dset' : ['abl', 'FEMNIST'],
+        'n_runs' : [1, 200],
+        'crounds' : [1, 100],
+        'k_global' : [2, 100],
+        "n_clients" : [2, 50]
+    }
+    
+    config = {}
+    config['dset'] = dset
+    config['n_runs'] = n_runs
+    config['crounds'] = crounds
+    config['k_global'] = k_global
+    config['n_clients'] = det_n_clients(dset)
+
+
+    # assert correctly loaded config
+    for key in config.keys():
+        if type(config[key]) == int:
+            assert (config[key] >= min(config_options[key])) and (config[key] <= max(config_options[key])), f"value for {key} out of bounds: {config[key]}. Minimum: {min(config_options[key])}, maximum: {max(config_options[key])}." 
+        elif type(config[key]) == str:
+            assert config[key] in config_options[key], f'unkown value for {key}. options: {config_options[key]}.'
+        else:
+            AssertionError(f"unkown type for {key}: {type(key)}.")
+    
+    # we assert these beforehand
+    for key in dset_options:
+        config[key] = dset_options[key]
+
+
+    return config
+
+
+def load_dset_config(ppc = 50, noise = 1, beta = 1):
+    config_options = {
+        "ppc" : [50, 100, 200],
+        "noise" : [1, 1.1, 1.2, 1.3, 1.4, 1.5],
+        "beta" : [0.1, 1, 10]
+    }
+
+    config= {
+        "ppc" : ppc,
+        "noise" : noise,
+        "beta" : beta}
+    
+    for key in config.keys():
+        assert config[key] in config_options[key], f'unkown value for {key} : {config[key]}. options: {config_options[key]}'
+
+    return config
+
+
+
 # (CENTRAL) method to calculate silhouette scores
 def calc_silhouette_score(dset, centers):
 

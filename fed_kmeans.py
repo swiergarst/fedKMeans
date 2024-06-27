@@ -12,16 +12,19 @@ from tqdm import tqdm
 
 
 class client_FKM():
-    def __init__(self, data, labels, n_clusters) : 
+    def __init__(self, data, labels, n_clusters, drop_empty_clusters = True, n_iter = 1, init = "k-means++") : 
         self.data = data
         self.labels = labels #ground-truth labels; purely used for validation
         self.n_clusters = min(data.shape[0], n_clusters)
+        self.n_iter = n_iter
+        self.init = init
+        self.drop = drop_empty_clusters
         self.means, self.sample_amts = self.init_means()
         
 
     def init_means(self):
         # local_clusters, _ = kmeans_plusplus(self.data, self.n_clusters)
-        km = KMeans(n_clusters = self.n_clusters).fit(self.data)
+        km = KMeans(n_clusters = self.n_clusters, max_iter = self.n_iter, init = self.init).fit(self.data)
         # km.cluster_centers_ = np.copy(local_clusters)
         local_clusters = np.copy(km.cluster_centers_)
 
@@ -36,13 +39,14 @@ class client_FKM():
         return local_clusters, sample_amts
     
     def det_local_clusters(self):
-
-        scores = self.discard_empty_clusters()
+        scores = self.det_score()
+        if self.drop:
+            self.discard_empty_clusters()
         sample_amts = self.km_local()
         return np.copy(self.means),  sample_amts, scores
 
-    
-    def discard_empty_clusters(self):
+    def det_score(self):
+        self.n_clusters = self.means.shape[0]
         km = KMeans(n_clusters = min(self.data.shape[0], self.n_clusters), max_iter = 1).fit(self.data)
 
         # need to 'unfit' the data
@@ -51,19 +55,35 @@ class client_FKM():
 
         cluster_labels = km.predict(self.data)  
         
-        if self.labels == None:
+        if self.labels is None:
             score = None
         else:
             score = adjusted_rand_score(self.labels, cluster_labels)
             
+        return score
+    
+    def discard_empty_clusters(self):
+        self.n_clusters = self.means.shape[0]
+        # we're running fit only to avoid errors (sklearn doesn't like modifying unfitted classifiers)
+        km = KMeans(n_clusters = min(self.data.shape[0], self.n_clusters)).fit(self.data)
+
+        # need to 'unfit' the data
+        km.cluster_centers_ = np.copy(self.means)
+
+        #assign data to clusters
+        cluster_labels = km.predict(self.data)  
+        
+        # check which clusters are empty
         non_empty_clusters = [ np.where(cluster_labels == i)[0].shape[0] > 0 for i in range(self.n_clusters)]    
+        
+        # discard empty clusters & determine new k_local (n_clusters)
         self.means = self.means[non_empty_clusters]
         self.n_clusters = len(self.means)
-        return score
+
 
 
     def km_local(self):
-        km = KMeans(n_clusters = self.n_clusters, init = self.means, max_iter = 1, n_init = 1).fit(self.data)
+        km = KMeans(n_clusters = self.n_clusters, init = self.means, max_iter = self.n_iter, n_init = 1).fit(self.data)
         self.means = np.copy(km.cluster_centers_)
         sample_amts = np.array([len(km.labels_[km.labels_ == i]) for i in range(self.n_clusters)])
         
@@ -92,11 +112,6 @@ class server_FKM():
         return cluster_aggregator.cluster_centers_
 
 
-def det_n_clients(dset):
-    if dset == "FEMNIST":
-        return 10
-    else:
-        return 5
 
 
 def load_clients(config):
@@ -112,21 +127,19 @@ def load_clients(config):
         local_clusters.append(client.means)
         cluster_sizes.append(client.sample_amts)
 
-        local_clusters = np.concatenate(local_clusters)
-
-
-        cluster_sizes = np.concatenate(cluster_sizes)
+    local_clusters = np.concatenate(local_clusters)
+    cluster_sizes = np.concatenate(cluster_sizes)
 
     return clients, local_clusters, cluster_sizes
 
 
 
 def run(config):
-    n_clients = det_n_clients(config['dset'])
 
     crounds = config['crounds']
     n_runs = config['n_runs']
     k_global = config['k_global']
+    n_clients = config['n_clients']
 
     scores = np.zeros((n_clients, crounds, n_runs))
     avg_scores = np.zeros((crounds, n_runs))
@@ -154,7 +167,7 @@ def run(config):
                 # "send" global clusters to clients
                 client.means = np.copy(global_clusters)
                 # determine which clusters are empty & run kmeans locally for new local clustering
-                local_cluster, cluster_size, scores[i,c,r] = client.det_local_clusters(score = fed_score)
+                local_cluster, cluster_size, scores[i,c,r] = client.det_local_clusters()
                 
                 #append to data structures
                 local_clusters.append(local_cluster)
@@ -177,7 +190,9 @@ def run(config):
             n_s = len(client_o.labels)
             avg_scores += n_s * scores[client_i, :, :]
             tot_samples += n_s
+        avg_scores /= tot_samples
 
+    return avg_scores
 
 
 
