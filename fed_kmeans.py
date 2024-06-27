@@ -20,9 +20,10 @@ class client_V2():
         
 
     def init_means(self):
-        local_clusters, _ = kmeans_plusplus(self.data, self.n_clusters)
-        km = KMeans(n_clusters = local_clusters.shape[0]).fit(self.data)
-        km.cluster_centers_ = np.copy(local_clusters)
+        # local_clusters, _ = kmeans_plusplus(self.data, self.n_clusters)
+        km = KMeans(n_clusters = self.n_clusters).fit(self.data)
+        # km.cluster_centers_ = np.copy(local_clusters)
+        local_clusters = np.copy(km.cluster_centers_)
 
         labels = km.predict(self.data)
         sample_amts = np.array([len(labels[labels == i]) for i in range(self.n_clusters)])
@@ -36,6 +37,12 @@ class client_V2():
     
     def det_local_clusters(self, score=True):
 
+        scores = self.discard_empty_clusters(score = score)
+        sample_amts = self.km_local()
+        return np.copy(self.means),  sample_amts, scores
+
+    
+    def discard_empty_clusters(self, score = True):
         km = KMeans(n_clusters = min(self.data.shape[0], self.n_clusters), max_iter = 1).fit(self.data)
 
         # need to 'unfit' the data
@@ -50,9 +57,12 @@ class client_V2():
             score = None
             
         non_empty_clusters = [ np.where(cluster_labels == i)[0].shape[0] > 0 for i in range(self.n_clusters)]    
-
         self.means = self.means[non_empty_clusters]
         self.n_clusters = len(self.means)
+        return score
+
+
+    def km_local(self):
         km = KMeans(n_clusters = self.n_clusters, init = self.means, max_iter = 1, n_init = 1).fit(self.data)
         self.means = np.copy(km.cluster_centers_)
         sample_amts = np.array([len(km.labels_[km.labels_ == i]) for i in range(self.n_clusters)])
@@ -63,8 +73,7 @@ class client_V2():
         sample_amts = sample_amts[cluster_mask]
         #print(self.data.shape[0], self.n_clusters, sample_amts)
 
-        return(np.copy(self.means), sample_amts, score)
-
+        return(sample_amts)
     
 
 
