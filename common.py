@@ -70,7 +70,7 @@ def load_config(dset = 'abl', n_runs = 1, crounds = 10, k_global = 2, init = 'k-
         if type(config[key]) == int:
             assert (config[key] >= min(config_options[key])) and (config[key] <= max(config_options[key])), f"value for {key} out of bounds: {config[key]}. Minimum: {min(config_options[key])}, maximum: {max(config_options[key])}." 
         elif type(config[key]) == str or type(config[key] == bool):
-            assert config[key] in config_options[key], f'unkown value for {key}. options: {config_options[key]}.'
+            assert config[key] in config_options[key], f'invalid value for {key}: config[key]. options: {config_options[key]}.'
         else:
             AssertionError(f"unkown type for {key}: {type(key)}.")
     

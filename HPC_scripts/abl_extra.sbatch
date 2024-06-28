@@ -39,9 +39,9 @@ done
 module use /opt/insy/modulefiles
 #module load cuda/10.0 cudnn/10.0-7.4.2.24
 module load miniconda/3.9
-conda activate /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/envs/pytorch2
+conda activate /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/envs/flower
 
 prefix="raw_results/abl_extra/init${init}_drop${drop}_wagg${weighted_agg}/iter_local${iter_local}_"
 
-srun -n 200 python main.py -d ${dset} -r ${nruns} -p ${ppc} -c ${crounds} -n ${noise} -b ${beta}  > ${prefix}out.txt &
+srun -n 200 python ../main.py -d ${dset} -r ${nruns} -p ${ppc} -c ${crounds} -n ${noise} -b ${beta} -i 4{init} -l ${iter_local} -e ${drop} -w ${weighted_agg} > ${prefix}out.txt &
 wait 
