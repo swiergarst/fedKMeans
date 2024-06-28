@@ -2,7 +2,7 @@
 
 
 
-for init in "kmeans++" "random"
+for init in "k-means++" "random"
 do
 	for weighted in 0 1 
 	do

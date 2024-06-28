@@ -35,7 +35,7 @@ done
 module use /opt/insy/modulefiles
 #module load cuda/10.0 cudnn/10.0-7.4.2.24
 module load miniconda/3.9
-conda activate /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/envs/pytorch2
+conda activate /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower
 
 prefix="results/abl/beta${beta}/ppc${ppc}/noise_${noise}_"
 
