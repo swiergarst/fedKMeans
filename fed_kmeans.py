@@ -125,7 +125,7 @@ def load_clients(config):
     cluster_sizes = []
     for i in range(config['n_clients']):
         data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
-        client = client_FKM(data, labels, config['k_global'])
+        client = client_FKM(data, labels, config['k_global'], n_iter=config['iter_local'], drop_empty_clusters=config['drop'], init=config['init'])
         clients.append(client)
         local_clusters.append(client.means)
         cluster_sizes.append(client.sample_amts)
@@ -154,7 +154,7 @@ def run(config):
         cluster_sizes = []
 
         # create server object
-        server = server_FKM(k_global)
+        server = server_FKM(k_global, weighted=config['weighted_agg'])
 
         # initialize clients
         clients, local_clusters, cluster_sizes = load_clients(config)
