@@ -9,9 +9,9 @@ import os
 
 cwd = os.path.dirname(os.path.realpath(__file__))
 
-beta = 10
+# beta = 10
 
-ppc = 200
+# ppc = 200
 #noises = [1, 1.1, 1.2, 1.3, 1.4, 1.5]
 
 
@@ -22,7 +22,7 @@ folders = ['k-means++_drop0_wagg0/', 'k-means++_drop0_wagg1/', 'k-means++_drop1_
 
 
 local_iters = [1, 10, 20, 40, 80, 100]
-name = "iter_local1_out.txt"
+# name = "iter_local1_out.txt"
 
 
 nruns = 200
