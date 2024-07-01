@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/main.py", line 2, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/main.py", line 2, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/main.py", line 2, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/main.py", line 2, in <module>
+    from fed_kmeans import run
+ModuleNotFoundError: No module named 'fed_kmeans'
+    from fed_kmeans import run
+ModuleNotFoundError: No module named 'fed_kmeans'
+    from fed_kmeans import run
+    from fed_kmeans import run
+ModuleNotFoundError: No module named 'fed_kmeans'
+ModuleNotFoundError: No module named 'fed_kmeans'
+srun: error: grs3: tasks 196-199: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=10670390.0
+slurmstepd: error: *** STEP 10670390.0 ON 3dgi1 CANCELLED AT 2024-07-01T18:04:30 ***
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670390/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670390/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670390/step_0/freezer.state' for writing: Permission denied
+srun: error: awi19: tasks 88-103: Terminated
+srun: error: awi23: tasks 190-195: Terminated
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670390/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670390/step_0/freezer.state' for writing: Permission denied
+srun: error: awi21: tasks 112-135: Terminated
+srun: error: 3dgi2: tasks 56-87: Terminated
+srun: error: awi22: tasks 136-189: Terminated
+srun: error: awi20: tasks 104-111: Terminated
+srun: error: 3dgi1: tasks 0-55: Terminated
+srun: Force Terminated StepId=10670390.0

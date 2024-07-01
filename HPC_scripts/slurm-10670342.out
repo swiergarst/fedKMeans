@@ -1,0 +1,1159 @@
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+srun: error: influ4: tasks 0-62,64-71: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=10670342.0
+slurmstepd: error: *** STEP 10670342.0 ON influ4 CANCELLED AT 2024-07-01T18:03:10 ***
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670342/step_0/freezer.state' for writing: Permission denied
+srun: error: influ5: tasks 72-199: Terminated
+srun: error: influ4: task 63: Exited with exit code 1
+srun: Force Terminated StepId=10670342.0

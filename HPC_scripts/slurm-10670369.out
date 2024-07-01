@@ -1,0 +1,80 @@
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 37, in <module>
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 127, in load_clients
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    data, labels = load_data(i, config['dset'], beta=config['beta'], ppc = config['ppc'], noise=config['noise'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 32, in load_data
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    data = np.genfromtxt(datafile, delimiter=',')
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/npyio.py", line 1980, in genfromtxt
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 193, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/data/beta10.0/cluster_beta10.0_ppc50_noise1_client0.csv not found.
+srun: error: grs3: tasks 196-197,199: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=10670369.0
+slurmstepd: error: *** STEP 10670369.0 ON 3dgi1 CANCELLED AT 2024-07-01T18:02:54 ***
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670369/step_0/freezer.state' for writing: Permission denied
+srun: error: grs3: task 198: Exited with exit code 1
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670369/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670369/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670369/step_0/freezer.state' for writing: Permission denied
+srun: error: awi23: tasks 190-195: Terminated
+srun: error: awi19: tasks 88-103: Terminated
+srun: error: awi21: tasks 112-135: Terminated
+srun: error: 3dgi1: tasks 0-55: Terminated
+srun: error: 3dgi2: tasks 56-87: Terminated
+srun: error: awi22: tasks 136-189: Terminated
+srun: error: awi20: tasks 104-111: Terminated
+srun: Force Terminated StepId=10670369.0

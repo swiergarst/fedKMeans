@@ -9,7 +9,7 @@
 #SBATCH --mail-type=END
 
 
-dset="cancer_iid"
+dset="cancer"
 nruns=1
 ppc=50
 crounds=100
@@ -24,9 +24,9 @@ k=4
 module use /opt/insy/modulefiles
 #module load cuda/10.0 cudnn/10.0-7.4.2.24
 module load miniconda/3.9
-conda activate /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/envs/pytorch2
+conda activate /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower
 
-prefix="results/FEMNIST/"
+prefix="raw_results/cancer/"
 
-srun -n 200 python main.py -d ${dset} -r ${nruns} -k ${k}  > ${prefix}out.txt &
+srun -n 200 python main.py -d ${dset} -r ${nruns} -k ${k}  > ${prefix}${dset}_out.txt &
 wait 
