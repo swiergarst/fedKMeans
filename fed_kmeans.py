@@ -180,13 +180,13 @@ def run(config):
             cluster_sizes = np.concatenate(cluster_sizes)
 
         # for FEMNIST, we look at silhouette score (centrally calcualted)        
-        if (config['dset'] == "FEMNIST"):
+        if (config['dset'] in ["FEMNIST", "cancer_iid", "cancer_niid"]):
             full_dset, _ = load_stacked_data(config['dset'], n_clients)
             avg_scores[0,r] = calc_silhouette_score(full_dset, global_clusters)
             avg_scores[1,r] = calc_ssilh_score_fed2(clients, global_clusters)
 
     # combine ARI into (weighted) mean ARI for all clients combined
-    if (config['dset'] != "FEMNIST"):
+    if (config['dset'] not in ["FEMNIST", "cancer_iid", "cancer_niid"]):
         tot_samples = 0
         #fed_mean = np.zeros(n_runs)
         for client_i, client_o in enumerate(clients):

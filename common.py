@@ -23,10 +23,14 @@ def load_data(i, dset, beta = None, ppc = 100, noise = 1):
         labelfile = cwd + "/data/beta" + str(beta) + "/labels_beta" + str(beta) + "_ppc" + str(ppc) + "_noise" + str(noise) + "_client" + str(i) + ".csv"         
     elif dset == "FEMNIST":
         datafile = cwd + "/data/MNIST/MNIST_cluster_client" + str(i) + ".csv"
+    elif dset == "cancer_iid":
+        datafile = cwd + "/data/fourcancers/client" + str(i) + "iid.csv"
+    elif dset == "cancer_niid":
+        datafile = cwd + "/data/fourcancers/client" + str(i) + "niid.csv"
 
 
     data = np.genfromtxt(datafile, delimiter=',')
-    if dset == "FEMNIST":
+    if dset == "FEMNIST" or dset == "cancer_iid" or dset == "cancer_niid":
         labels = None
     else:
         labels = np.genfromtxt(labelfile, delimiter=',') 
@@ -36,12 +40,14 @@ def load_data(i, dset, beta = None, ppc = 100, noise = 1):
 def det_n_clients(dset):
     if dset == "FEMNIST":
         return 10
+    elif dset == "cancer_iid" or dset == "cancer_niid" :
+        return 3
     else:
         return 5
     
 def load_config(dset = 'abl', n_runs = 1, crounds = 10, k_global = 2, init = 'k-means++', iter_local = 1, drop = True, weighted_agg = True, dset_options = {}):
     config_options = {
-        'dset' : ['abl', 'FEMNIST'],
+        'dset' : ['abl', 'FEMNIST', 'cancer_iid', 'cancer_niid'],
         'n_runs' : [1, 200],
         'crounds' : [1, 100],
         'k_global' : [2, 100],
