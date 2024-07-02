@@ -1,0 +1,16 @@
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=10670622.0. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: awi20: task 132: Out Of Memory
+srun: launch/slurm: _step_signal: Terminating StepId=10670622.0
+slurmstepd: error: *** STEP 10670622.0 ON 3dgi1 CANCELLED AT 2024-07-02T15:23:51 ***
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670622/step_0/freezer.state' for writing: Permission denied
+srun: error: grs3: tasks 182-189: Terminated
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670622/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670622/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670622/step_0/freezer.state' for writing: Permission denied
+srun: error: grs4: tasks 190-199: Terminated
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670622/step_0/freezer.state' for writing: Permission denied
+srun: error: awi21: tasks 134-157: Terminated
+srun: error: 3dgi2: tasks 64-125: Terminated
+srun: error: 3dgi1: tasks 0-63: Terminated
+srun: error: awi22: tasks 158-181: Terminated
+srun: Force Terminated StepId=10670622.0

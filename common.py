@@ -24,9 +24,9 @@ def load_data(i, dset, beta = None, ppc = 100, noise = 1):
     elif dset == "FEMNIST":
         datafile = cwd + "/data/MNIST/MNIST_cluster_client" + str(i) + ".csv"
     elif dset == "cancer_iid":
-        datafile = cwd + "/data/fourcancers/client" + str(i) + "iid.csv"
+        datafile = cwd + "/data/fourcancers/client" + str(i) + "_iid_Tumor.csv"
     elif dset == "cancer_niid":
-        datafile = cwd + "/data/fourcancers/client" + str(i) + "niid.csv"
+        datafile = cwd + "/data/fourcancers/client" + str(i) + "_niid_Tumor.csv"
 
 
     data = np.genfromtxt(datafile, delimiter=',')
