@@ -96,6 +96,24 @@ class client_FKM():
         return(sample_amts)
     
 
+    def get_cluster_averages(self, cluster_centers):
+
+        km = KMeans(n_clusters = cluster_centers.shape)
+        km.cluster_centers_ =  np.copy(cluster_centers)
+        km._n_threads = 8
+
+        labels = km.predict(self.data)
+
+        cluster_means = np.zeros_like(cluster_centers)
+        cluster_sizes = np.zeros(cluster_centers.shape[0])
+
+        for i, label in enumerate(np.unique(labels)):
+            cluster_means[i,...] = np.mean(self.data[labels == label, ...], axis = 0)
+            cluster_sizes[i] = self.data[labels == label, ...].shape[0]
+        
+        return cluster_means, cluster_sizes
+    
+
 
 class server_FKM():
     def __init__(self, n_global, weighted = True):
@@ -196,6 +214,8 @@ def run(config):
         avg_scores /= tot_samples
 
     return avg_scores
+
+
 
 
 
