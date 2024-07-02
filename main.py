@@ -29,6 +29,9 @@ elif args.w == 0:
     weighted = False
 
 
+# nasty workaround for beta
+if args.b >= 1:
+    args.b = int(args.b)
 
 dset_config = load_dset_config(beta = args.b, ppc = 50, noise = 1)
 config = load_config(n_runs = 1, k_global = args.k, crounds = args.c, dset = args.d, init = args.i, iter_local = args.l, drop = drop, weighted_agg = weighted, dset_options = dset_config)

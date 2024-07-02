@@ -1,0 +1,16 @@
+/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/bin/python: can't open file '/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/main.py': [Errno 2] No such file or directory
+/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/bin/python: can't open file '/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/main.py': [Errno 2] No such file or directory
+/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/bin/python: can't open file '/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/main.py': [Errno 2] No such file or directory
+/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/bin/python: can't open file '/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/main.py': [Errno 2] No such file or directory
+/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/bin/python: can't open file '/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/main.py': [Errno 2] No such file or directory
+/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/bin/python: can't open file '/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/main.py': [Errno 2] No such file or directory
+/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/bin/python: can't open file '/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/main.py': [Errno 2] No such file or directory
+/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/bin/python: can't open file '/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/main.py': [Errno 2] No such file or directory
+srun: error: insy15: tasks 128-135: Exited with exit code 2
+srun: launch/slurm: _step_signal: Terminating StepId=10670443.0
+slurmstepd: error: *** STEP 10670443.0 ON awi01 CANCELLED AT 2024-07-01T18:25:51 ***
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670443/step_0/freezer.state' for writing: Permission denied
+srun: error: awi02: tasks 72-127: Terminated
+srun: error: insy16: tasks 136-199: Terminated
+srun: error: awi01: tasks 0-71: Terminated
+srun: Force Terminated StepId=10670443.0

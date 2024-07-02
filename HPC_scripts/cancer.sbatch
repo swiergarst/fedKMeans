@@ -9,7 +9,7 @@
 #SBATCH --mail-type=END
 
 
-dset="cancer"
+dset="cancer_niid"
 nruns=1
 ppc=50
 crounds=100
