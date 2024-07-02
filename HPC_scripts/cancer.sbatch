@@ -28,5 +28,7 @@ conda activate /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower
 
 prefix="raw_results/cancer/"
 
-srun -n 200 python main.py -d ${dset} -r ${nruns} -k ${k}  > ${prefix}${dset}_out.txt &
+
+
+srun -n 200 python ../main.py -d ${dset} -r ${nruns} -k ${k}  > ${prefix}${dset}_out.txt &
 wait 
