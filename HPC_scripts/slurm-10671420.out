@@ -1,0 +1,30 @@
+usage: main.py [-h] [-r R] [-k K] [-c C] [-b B] [-p P] [-n N] [-d D] [-i I]
+               [-l L] [-e E] [-w W]
+usage: main.py [-h] [-r R] [-k K] [-c C] [-b B] [-p P] [-n N] [-d D] [-i I]
+               [-l L] [-e E] [-w W]
+main.py: error: argument -n: invalid int value: '1.5'
+usage: main.py [-h] [-r R] [-k K] [-c C] [-b B] [-p P] [-n N] [-d D] [-i I]
+               [-l L] [-e E] [-w W]
+main.py: error: argument -n: invalid int value: '1.5'
+usage: main.py [-h] [-r R] [-k K] [-c C] [-b B] [-p P] [-n N] [-d D] [-i I]
+               [-l L] [-e E] [-w W]
+main.py: error: argument -n: invalid int value: '1.5'
+usage: main.py [-h] [-r R] [-k K] [-c C] [-b B] [-p P] [-n N] [-d D] [-i I]
+               [-l L] [-e E] [-w W]
+main.py: error: argument -n: invalid int value: '1.5'
+main.py: error: argument -n: invalid int value: '1.5'
+usage: main.py [-h] [-r R] [-k K] [-c C] [-b B] [-p P] [-n N] [-d D] [-i I]
+               [-l L] [-e E] [-w W]
+main.py: error: argument -n: invalid int value: '1.5'
+srun: error: grs3: tasks 185-189: Exited with exit code 2
+srun: launch/slurm: _step_signal: Terminating StepId=10671420.0
+slurmstepd: error: *** STEP 10671420.0 ON 3dgi1 CANCELLED AT 2024-07-03T13:54:12 ***
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10671420/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10671420/step_0/freezer.state' for writing: Permission denied
+srun: error: grs4: tasks 190-199: Terminated
+srun: error: 3dgi1: tasks 0-59: Terminated
+srun: error: awi22: tasks 140-183: Terminated
+srun: error: awi21: tasks 96-139: Terminated
+srun: error: grs3: task 184: Exited with exit code 2
+srun: error: awi20: tasks 60-95: Terminated
+srun: Force Terminated StepId=10671420.0
