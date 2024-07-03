@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 40, in <module>
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 186, in run
+    avg_scores[1,r] = calc_ssilh_score_fed2(clients, global_clusters)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 126, in calc_ssilh_score_fed2
+    cluster_average, cluster_size = client.get_cluster_averages(centers)
+AttributeError: 'client_FKM' object has no attribute 'get_cluster_averages'
+srun: error: awi23: task 131: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=10670640.0
+slurmstepd: error: *** STEP 10670640.0 ON 3dgi1 CANCELLED AT 2024-07-02T15:47:04 ***
+srun: error: grs4: tasks 195,197-199: Terminated
+srun: error: awi21: tasks 87-97: Terminated
+srun: error: awi20: tasks 70-74,76-85: Terminated
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670640/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670640/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670640/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670640/step_0/freezer.state' for writing: Permission denied
+srun: error: 3dgi1: tasks 0-23: Terminated
+srun: error: awi25: tasks 156-157: Terminated
+srun: error: 3dgi2: tasks 24-47: Terminated
+srun: error: grs4: tasks 194,196: Terminated
+srun: error: awi23: tasks 122-130: Terminated
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670640/step_0/freezer.state' for writing: Permission denied
+srun: error: awi21: task 86: Terminated
+srun: error: awi01: tasks 48-69: Terminated
+srun: error: awi24: tasks 132-155: Terminated
+srun: error: awi20: task 75: Terminated
+srun: error: awi26: tasks 158-193: Terminated
+srun: error: awi22: tasks 98-121: Terminated
+srun: Force Terminated StepId=10670640.0

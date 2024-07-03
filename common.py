@@ -24,9 +24,9 @@ def load_data(i, dset, beta = None, ppc = 100, noise = 1):
     elif dset == "FEMNIST":
         datafile = cwd + "/data/MNIST/MNIST_cluster_client" + str(i) + ".csv"
     elif dset == "cancer_iid":
-        datafile = cwd + "/data/fourcancers/client" + str(i) + "_iid_Tumor.csv"
+        datafile = cwd + "/data/fourcancers/client" + str(i) + "_iid_Tumor_PCA.csv"
     elif dset == "cancer_niid":
-        datafile = cwd + "/data/fourcancers/client" + str(i) + "_niid_Tumor.csv"
+        datafile = cwd + "/data/fourcancers/client" + str(i) + "_niid_Tumor_PCA.csv"
 
 
     data = np.genfromtxt(datafile, delimiter=',')
@@ -122,12 +122,27 @@ def calc_ssilh_score_fed2(clients, centers):
     
     cluster_averages = []
     cluster_sizes = []
+
+    global_cluster_averages = np.zeros_like(centers)
+    total_sizes = np.zeros((centers.shape[0],1))
     for client in clients:
         cluster_average, cluster_size = client.get_cluster_averages(centers)
-        cluster_averages.append(cluster_average)
-        cluster_sizes.append(cluster_size)
+        cluster_size = cluster_size.reshape(-1, 1)        
 
-    global_cluster_averages = weighted_avg(cluster_averages, cluster_sizes)
+        global_cluster_averages += cluster_average * cluster_size
+        total_sizes += cluster_size
+
+    global_cluster_averages /= total_sizes
+        #cluster_averages.append(cluster_average)
+        #cluster_sizes.append(cluster_size)
+        #global_cluster_averages
+    
+    #cluster_avgs = np.array(cluster_averages)	
+    #print(f'cluster_avgs shape: {cluster_avgs.shape}')
+    #print(f'local cluster averages of last client: {cluster_average}')
+    #print(f'global cluster average: {global_cluster_averages}')
+    
+    #global_cluster_averages = weighted_avg(cluster_averages, cluster_sizes)
 
     return(calc_simpl_silh_score_fed(clients, global_cluster_averages))
 

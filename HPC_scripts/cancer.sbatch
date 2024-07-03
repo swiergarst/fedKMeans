@@ -5,11 +5,11 @@
 #SBATCH --time=1:00:00
 #SBATCH --ntasks=200
 #SBATCH --cpus-per-task=1
-#SBATCH --mem-per-cpu=124
+#SBATCH --mem-per-cpu=10G
 #SBATCH --mail-type=END
 
 
-dset="cancer_niid"
+dset="cancer_iid"
 nruns=1
 ppc=50
 crounds=100

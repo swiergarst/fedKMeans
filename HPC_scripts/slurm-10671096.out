@@ -1,0 +1,44 @@
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 40, in <module>
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 204, in run
+    avg_scores[1,r] = calc_ssilh_score_fed2(clients, global_clusters)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 130, in calc_ssilh_score_fed2
+    global_cluster_averages = weighted_avg(cluster_averages, cluster_sizes)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 221, in weighted_avg
+    avg_scores = np.zeros(scores.shape[1])
+AttributeError: 'list' object has no attribute 'shape'
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 40, in <module>
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 204, in run
+    avg_scores[1,r] = calc_ssilh_score_fed2(clients, global_clusters)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 130, in calc_ssilh_score_fed2
+    global_cluster_averages = weighted_avg(cluster_averages, cluster_sizes)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/common.py", line 221, in weighted_avg
+    avg_scores = np.zeros(scores.shape[1])
+AttributeError: 'list' object has no attribute 'shape'
+srun: error: grs3: tasks 175,177: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=10671096.0
+slurmstepd: error: *** STEP 10671096.0 ON 3dgi1 CANCELLED AT 2024-07-03T08:40:43 ***
+srun: error: grs4: tasks 195,197: Terminated
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10671096/step_0/freezer.state' for writing: Permission denied
+srun: error: awi20: tasks 72,74,76,78,80,82,84-90: Terminated
+srun: error: grs4: tasks 194,198-199: Terminated
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10671096/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10671096/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10671096/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10671096/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10671096/step_0/freezer.state' for writing: Permission denied
+srun: error: 3dgi1: tasks 0-23: Terminated
+srun: error: grs3: tasks 174,176,178-193: Terminated
+srun: error: awi20: tasks 73,75,77,79,81,91: Terminated
+srun: error: 3dgi2: tasks 24-47: Terminated
+srun: error: grs4: task 196: Terminated
+srun: error: awi22: tasks 116-139: Terminated
+srun: error: awi21: tasks 92-115: Terminated
+srun: error: awi19: tasks 48-71: Terminated
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10671096/step_0/freezer.state' for writing: Permission denied
+srun: error: awi23: tasks 140-173: Terminated
+srun: error: awi20: task 83: Terminated
+srun: Force Terminated StepId=10671096.0

@@ -113,6 +113,20 @@ class client_FKM():
         
         return cluster_means, cluster_sizes
     
+    def calc_local_ssilh_score(self, global_centers):
+        km = KMeans(n_clusters = global_centers.shape[0])
+        km.cluster_centers_ = np.copy(global_centers)
+        km._n_threads = 8
+        labels = km.predict(self.data)
+        score = 0
+        for i, label in enumerate(labels):
+            bi = np.min(np.linalg.norm(self.data[i,:] - global_centers[np.arange(global_centers.shape[0]) != label, :], axis = 1))
+            ai = np.linalg.norm(self.data[i,:] - global_centers[label,:])
+            score_i = (bi - ai)/max(bi,ai)
+            score += score_i   
+        score /= self.data.shape[0]
+
+        return score, self.data.shape[0] 
 
 
 class server_FKM():

@@ -1,0 +1,81 @@
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 40, in <module>
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 128, in load_clients
+    client = client_FKM(data, labels, config['k_global'], n_iter=config['iter_local'], drop_empty_clusters=config['drop'], init=config['init'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 22, in __init__
+    self.means, self.sample_amts = self.init_means()
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 27, in init_means
+    km = KMeans(n_clusters = self.n_clusters, max_iter = self.n_iter, init = self.init).fit(self.data)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/sklearn/base.py", line 1473, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py", line 1461, in fit
+    X = self._validate_data(
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/sklearn/base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/sklearn/utils/validation.py", line 1059, in check_array
+Traceback (most recent call last):
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/HPC_scripts/../main.py", line 40, in <module>
+    results = run(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 160, in run
+    clients, local_clusters, cluster_sizes = load_clients(config)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 128, in load_clients
+    client = client_FKM(data, labels, config['k_global'], n_iter=config['iter_local'], drop_empty_clusters=config['drop'], init=config['init'])
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 22, in __init__
+    self.means, self.sample_amts = self.init_means()
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/fedKMeans/fed_kmeans.py", line 27, in init_means
+    km = KMeans(n_clusters = self.n_clusters, max_iter = self.n_iter, init = self.init).fit(self.data)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/sklearn/base.py", line 1473, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py", line 1461, in fit
+    X = self._validate_data(
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/sklearn/base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/sklearn/utils/validation.py", line 1059, in check_array
+    _assert_all_finite(
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite(
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    _assert_all_finite_element_wise(
+  File "/tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower/lib/python3.10/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains NaN.
+KMeans does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+    raise ValueError(msg_err)
+ValueError: Input X contains NaN.
+KMeans does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+srun: error: grs4: tasks 195,197: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=10670625.0
+slurmstepd: error: *** STEP 10670625.0 ON 3dgi1 CANCELLED AT 2024-07-02T15:25:37 ***
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670625/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670625/step_0/freezer.state' for writing: Permission denied
+srun: error: awi24: tasks 124,126,128,130: Terminated
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670625/step_0/freezer.state' for writing: Permission denied
+srun: error: awi20: tasks 70-71,73-77: Terminated
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670625/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670625/step_0/freezer.state' for writing: Permission denied
+srun: error: awi25: tasks 148-149: Terminated
+srun: error: grs3: tasks 186-193: Terminated
+srun: error: grs4: tasks 194,196,198-199: Terminated
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670625/step_0/freezer.state' for writing: Permission denied
+srun: error: awi21: tasks 78-79,81-89: Terminated
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670625/step_0/freezer.state' for writing: Permission denied
+srun: error: awi23: tasks 114-123: Terminated
+srun: error: awi26: tasks 150-185: Terminated
+srun: error: awi01: tasks 48-69: Terminated
+srun: error: awi20: task 72: Terminated
+srun: error: awi22: tasks 90-103,105-113: Terminated
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670625/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670625/step_0/freezer.state' for writing: Permission denied
+srun: error: 3dgi1: tasks 0-17,19-23: Terminated
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10670625/step_0/freezer.state' for writing: Permission denied
+srun: error: awi21: task 80: Terminated
+srun: error: 3dgi2: tasks 24-47: Terminated
+srun: error: awi24: tasks 125,127,129,131-147: Terminated
+srun: error: 3dgi1: task 18: Terminated
+srun: error: awi22: task 104: Terminated
+srun: Force Terminated StepId=10670625.0
