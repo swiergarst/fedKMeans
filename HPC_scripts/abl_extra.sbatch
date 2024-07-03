@@ -13,8 +13,8 @@ dset="abl"
 nruns=1
 ppc=50
 crounds=100
-beta=10
-noise=1
+beta=1
+noise=1.5
 
 init='k-means++'
 iter_local=1

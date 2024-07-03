@@ -2,7 +2,7 @@
 
 #SBATCH --partition=general
 #SBATCH --qos=short
-#SBATCH --time=1:00:00
+#SBATCH --time=0:10:00
 #SBATCH --ntasks=200
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=10G
@@ -10,12 +10,9 @@
 
 
 dset="cancer_niid"
-nruns=1
-ppc=50
-crounds=100
-beta=0.1
-noise=1
 k=4
+kl=4
+
 
 
 
@@ -26,9 +23,8 @@ module use /opt/insy/modulefiles
 module load miniconda/3.9
 conda activate /tudelft.net/staff-bulk/ewi/insy/DBL/swiergarst/flower
 
-prefix="raw_results/cancer/"
+prefix="raw_results/cancer/dennis/"
 
 
-
-srun -n 200 python ../main.py -d ${dset} -r ${nruns} -k ${k}  > ${prefix}${dset}_out.txt &
+srun -n 200 python ../run_kfed.py -d ${dset} -k ${k} -l ${kl} > ${prefix}${dset}.txt &
 wait 

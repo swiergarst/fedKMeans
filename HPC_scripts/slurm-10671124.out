@@ -1,0 +1,46 @@
+Warning: active Conda Environment detected. The miniconda module could not be
+unloaded. First deactivate all active Conda Environments. 
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+usage: run_kfed.py [-h] [-d D] [-k K] [-l L] [-b B] [-p P] [-n N]
+run_kfed.py: error: argument -p: expected one argument
+usage: run_kfed.py [-h] [-d D] [-k K] [-l L] [-b B] [-p P] [-n N]
+run_kfed.py: error: argument -p: expected one argument
+usage: run_kfed.py [-h] [-d D] [-k K] [-l L] [-b B] [-p P] [-n N]
+run_kfed.py: error: argument -p: expected one argument
+usage: run_kfed.py [-h] [-d D] [-k K] [-l L] [-b B] [-p P] [-n N]
+run_kfed.py: error: argument -p: expected one argument
+srun: error: grs4: tasks 197-199: Exited with exit code 2
+srun: launch/slurm: _step_signal: Terminating StepId=10671124.0
+slurmstepd: error: *** STEP 10671124.0 ON 3dgi1 CANCELLED AT 2024-07-03T10:58:13 ***
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10671124/step_0/freezer.state' for writing: Permission denied
+srun: error: grs4: task 196: Exited with exit code 2
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10671124/step_0/freezer.state' for writing: Permission denied
+slurmstepd: error: common_file_write_content: unable to open '/sys/fs/cgroup/freezer/slurm/uid_618619/job_10671124/step_0/freezer.state' for writing: Permission denied
+srun: error: awi24: tasks 176-179: Terminated
+srun: error: 3dgi1: tasks 0-23: Terminated
+srun: error: grs3: tasks 180-195: Terminated
+srun: error: 3dgi2: tasks 24-47: Terminated
+srun: error: awi21: tasks 92-115: Terminated
+srun: error: awi19: tasks 48-71: Terminated
+srun: error: awi22: tasks 116-139: Terminated
+srun: error: awi23: tasks 140-175: Terminated
+srun: error: awi20: tasks 72-91: Terminated
+srun: Force Terminated StepId=10671124.0
